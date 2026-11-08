@@ -1,0 +1,44 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Local application data and user-generated results
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.log
+settings.json
+exports/
+reports/
+results/
+backups/
+temp/
+logs/
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
